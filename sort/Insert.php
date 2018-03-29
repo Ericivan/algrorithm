@@ -16,7 +16,7 @@ for ($i = 1; $i < $count;$i++) {
     // 临时值与 i 前面的数组进行比较，令j=i-1
     for ($j = $i - 1; $j >= 0; $j--) {
 
-        //
+        //插入值比较小，$arr[$j]值替换成$temp，$arr[$j]往后移动,实现位置交换
         if ($temp < $arr[$j]) {
             $arr[$j + 1] = $arr[$j];
             $arr[$j] = $temp;
