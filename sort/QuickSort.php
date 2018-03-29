@@ -26,7 +26,7 @@ function quickSort($array)
 $arr = [5, 1, 6, 7, 4, 3, 77, 33];
 
 $result = quickSort($arr);
-//var_dump(1);
+
 print_r($result);
 
 
